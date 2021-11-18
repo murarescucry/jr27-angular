@@ -1,0 +1,23 @@
+<div class="student-item">
+  First student
+  <div class="name">
+    Name: {{student?.name}}
+  </div>
+  <div class="email">
+    Email: {{student?.email}}
+  </div>
+  <div class="year">
+    Year: {{student?.id}}
+  </div>
+</div>
+<div *ngFor="let s of students" class="student-item">
+  <div class="name">
+    Name: {{s.name}}
+  </div>
+  <div class="email">
+    Email: {{s.email}}
+  </div>
+  <div class="year">
+    Year: {{s.id}}
+  </div>
+</div>

@@ -1,0 +1,16 @@
+<p>first works!</p>
+<div class="name">
+  First component name
+</div>
+
+<div *ngFor="let s of students" class="student-item">
+  <div class="name">
+    Name: {{s.name}}
+  </div>
+  <div class="email">
+    Email: {{s.email}}
+  </div>
+  <div class="year">
+    Year: {{s.id}}
+  </div>
+</div>

@@ -1,0 +1,11 @@
+.student-item {
+  border: 1px solid #ccc;
+  box-shadow: 0 0 1px 1px rgba(0,0,0, 0.2);
+  margin: 5px 0;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 20px;
+  color: #b6b6b6;
+}
